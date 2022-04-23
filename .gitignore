@@ -1,4 +1,4 @@
-*
+*.*
 
 !.gitignore
-!sfmlExamples/sfmlExamples/Example01.cpp
+!*.cpp
