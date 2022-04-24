@@ -111,7 +111,6 @@ int main()
 					break;
 				}
 			}
-
 		}
 
 		//// Draw
