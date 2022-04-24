@@ -8,7 +8,7 @@ using namespace sf;
 int main()
 {
 	RenderWindow window(VideoMode(640, 400), "SFML works!", Style::Default);
-	window.setFramerateLimit(90);
+	window.setFramerateLimit(75);
 
 	CircleShape shape(50.f);
 	while (window.isOpen())
