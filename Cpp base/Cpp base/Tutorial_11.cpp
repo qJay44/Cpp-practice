@@ -18,7 +18,7 @@ int main()
 	int num = 35;
 	double someDouble = 2.35;
 
-	std::string fileName = "myFile.txt";
+	std::string fileName = "Files/myFile.txt";
 
 	std::ofstream outFile;
 	outFile.open(fileName.c_str());
