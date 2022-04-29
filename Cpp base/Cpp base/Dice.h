@@ -17,9 +17,14 @@ public:
 
 	// Functions
 	const int toss() const;
+	static int getStaticID();
 
 private:
 	const int value;
 	std::string color;
+
+	// Static variables
+	static int ID;
+
 
 };
