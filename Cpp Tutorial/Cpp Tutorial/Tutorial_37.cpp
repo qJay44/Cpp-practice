@@ -21,7 +21,7 @@ public:
 
 private:
 	std::string name;
-	int* horsePower;
+	int* horsepower;
 };
 
 int main()
@@ -41,18 +41,18 @@ int main()
 Car::Car(std::string name, int horsePower)
 {
 	this->name = name;
-	this->horsePower = new int(horsePower);
+	this->horsepower = new int(horsePower);
 }
 
 Car::Car(const Car& obj)
 {
 	this->name = obj.name;
-	this->horsePower = new int(*obj.horsePower);
+	this->horsepower = new int(*obj.horsepower);
 }
 
 Car::~Car()
 {
-	delete this->horsePower;
+	delete this->horsepower;
 }
 
 const std::string& Car::getName() const
@@ -62,5 +62,5 @@ const std::string& Car::getName() const
 
 const int& Car::getHorsePower() const
 {
-	return *this->horsePower;
+	return *this->horsepower;
 }
