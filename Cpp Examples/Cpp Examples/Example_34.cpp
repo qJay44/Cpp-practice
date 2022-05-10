@@ -23,7 +23,7 @@ int main()
 
 	func(intArr);
 
-	for (size_t i = 0; i < 20; i++)
+	for (size_t i = 0; i < 10; i++)
 	{
 		std::cout << i << ": " << intArr[i] << '\n';
 	}
